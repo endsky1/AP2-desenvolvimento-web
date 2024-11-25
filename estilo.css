@@ -1,0 +1,161 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+@keyframes blink {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+body{
+  background-color: rgb(28, 27, 27);
+}
+p{
+  font-family: 'caveat', serif;
+  color: white;
+}
+h3,h4,h5,h6 {
+  font-family: 'VT323';
+  color: white;
+}
+h1,h2{
+  size: 200%;
+  font-family: 'Metal Mania';
+  font-weight: normal;
+  color: white
+}
+
+#bodylogin {
+  font-size: 25px;
+  text-align: center;
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+}
+
+#logo {
+  width: 5%;
+  height: 5%;
+}
+
+.genero {
+  text-align: center;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid gray;
+}
+.genero:hover {
+  background-color: #242424;
+  color: white;
+}
+
+#container{
+  display: grid;
+  grid-area: auto;
+  gap: 1em;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#article_jogadores {
+  display: block;
+  width: min-content;
+  border: 2px solid white;
+  padding: 10px;
+  margin: auto;
+  height: min-content;
+  text-align: center;
+}
+
+#article_jogadores:hover{
+  background-color: rgba(255, 255, 255, 0.407);
+  opacity: 50%;
+  cursor: pointer;
+}
+
+#filtro{
+  text-align: center;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.256);
+  padding: 0.5em 1em;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+a{
+  background-color: #000000;
+  font-size: larger;
+  color: white;
+  border: medium;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border: 2px solid gray;
+}
+a:hover{
+  background-color: rgb(52, 52, 52);
+  cursor: pointer;
+}
+
+#senhazuda{
+  padding: auto 10px;
+
+}
+
+
+
+#botaozudo{
+  text-align: center;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid gray;
+}
+
+#botaozudo:hover{
+  background-color: #242424;
+  color: white;
+}
+
+#barrapesquisa{
+  border: 2px solid gray;
+  background-color: black;
+  color: white;
+  padding: 5px 5px;
+}
+
+#container_03{
+  display: grid;
+  grid-template-columns: 20% 10%;
+  font-size: 23px;
+}
+
+
+#info {
+  font-size: 20px;
+}
